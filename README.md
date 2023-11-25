@@ -15,12 +15,8 @@
     <a href="https://sites.google.com/view/showlab"><strong>Mike Zheng Shou</strong></a>
     <br>
     <br>
-        <a href="https://arxiv.org/abs/2311.13574">
-        <img src='https://img.shields.io/badge/arXiv-XAGen-red' alt='Paper PDF'>
-        </a>
-        <a href='https://showlab.github.io/xagen'>
-        <img src='https://img.shields.io/badge/Project_Page-XAGen-green' alt='Project Page'>
-        </a>
+        <a href="https://arxiv.org/abs/2311.13574"><img src='https://img.shields.io/badge/arXiv-XAGen-red' alt='Paper PDF'></a>
+        <a href='https://showlab.github.io/xagen'><img src='https://img.shields.io/badge/Project_Page-XAGen-green' alt='Project Page'></a>
   </p>
   
   <table align="center">
