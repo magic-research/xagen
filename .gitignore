@@ -1,0 +1,12 @@
+.vscode
+*.ipynb
+*.safetensors
+*.ckpt
+__pycache__/
+checkpoints
+output
+smplx/assets/MANO_SMPLX_vertex_ids.pkl
+smplx/assets/SMPLX_NEUTRAL_2020.npz
+smplx/assets/SMPL-X__FLAME_vertex_ids.npy
+smplx/assets/smplx_extra_joints.yaml
+smplx/assets/SMPLX_to_J14.pkl

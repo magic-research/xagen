@@ -31,9 +31,37 @@
     </td>
   </table>
 
-*Introducing XAGen, a 3D-aware generative model that enables human synthesis with high-fidelity appearance and geometry, together with disentangled controllability for body, face, and hand.*
+## ⚒️ Installation
+prerequisites: `python>=3.7`, `CUDA>=11.3`.
 
-### *For high-quality human image animation, please also check our latest work <a href="https://github.com/magic-research/magic-animate">MagicAnimate</a>!*
+Install with `conda` activated: 
+```bash
+source ./install_env.sh
+```
+
+Follow the instructions in this [repo](https://github.com/yfeng95/PIXIE/blob/master/Doc/docs/getting_started.md#requirements) and [website](https://expose.is.tue.mpg.de/) to download parametric models and place the parametric models as follow:
+```bash
+xagen
+|----smplx
+  |----assets
+    |----MANO_SMPLX_vertex_ids.pkl
+    |----SMPL-X__FLAME_vertex_ids.npy
+    |----smplx_canonical_body_sdf.pkl
+    |----smplx_extra_joints.yaml
+    |----SMPLX_NEUTRAL_2020.npz
+    |----SMPLX_to_J14.pkl
+```
+
+## 🏃‍♂️ Getting Started
+Due to the copyright issue, we are unable to release all the processed datasets, we provide a sampled dataset and all the dataset labels for inference. Please download the sampled datasets and pretrained checkpoints from [release](https://github.com/magic-research/xagen/releases/tag/public_release). Then modify the path to data and checkpoints in the scripts.
+Run training:
+```bash
+bash dist_train.sh
+```
+Run inference:
+```bash
+bash inference.sh
+```
 
 ## Citing
 If you find our work useful, please consider citing:
