@@ -58,6 +58,7 @@ Run inference:
 ```bash
 bash inference.sh
 ```
+Note: We don't have the plan to release all the data preprocssing scripts, but please email me if you are interested.
 
 ## Citing
 If you find our work useful, please consider citing:
